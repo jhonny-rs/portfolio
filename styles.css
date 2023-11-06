@@ -63,7 +63,7 @@ body {
     width: 32px;
 }
 
-#change-theme-btn {
+.header-btn {
     border: 1px solid transparent;
     cursor: pointer;
     background-color: transparent;
@@ -130,4 +130,25 @@ body {
     margin-top: 2rem;
     text-align: center;
     font-weight: bold;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: var(--header-bg);
+    color: var(--header-icon-color);
+
+    transition: .3s;
+}
+
+#menu.active {
+    left: 0;
+}
+
+#menu ul li {
+    list-style: none;
+    margin: 32px 0;
 }

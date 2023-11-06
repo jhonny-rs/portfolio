@@ -14,9 +14,9 @@
 <body>
     <div class="header">
         <ul>
-            <li><a href="#"><span class="material-symbols-outlined header-icon">menu</span></a></li>
+            <li><button class="header-btn" onclick="show()"><span class="material-symbols-outlined header-icon">menu</span></button></li>
             <li style="justify-self: center;"><a href="#"><img id="header-logo" src="logo.png" alt="logo"></a></li>
-            <li style="justify-self: flex-end; margin-right: 35px;"><button id="change-theme-btn"
+            <li style="justify-self: flex-end; margin-right: 35px;"><button class="header-btn"
                     onclick="changeTheme()"><span class="material-symbols-outlined header-icon"
                         id="current-theme">light_mode</span></button></li>
         </ul>
@@ -35,6 +35,18 @@
 
     <div class="footer">
         <p>©jhonny-rs</p>
+    </div>
+
+    <div id="menu">
+        <ul>
+            <li><button class="header-btn" onclick="show()"><span class="material-symbols-outlined header-icon">menu</span></button></li>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+        </ul>
     </div>
     <script src="index.js"></script>
 </body>

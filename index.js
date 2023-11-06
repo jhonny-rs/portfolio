@@ -12,3 +12,7 @@ function changeTheme() {
         document.getElementById('current-theme').innerHTML = 'light_mode'
     }
 }
+
+function show() {
+    document.getElementById('menu').classList.toggle('active')
+}
